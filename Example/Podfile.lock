@@ -1,0 +1,14 @@
+PODS:
+  - CocoaPodSample (0.1.0)
+
+DEPENDENCIES:
+  - CocoaPodSample (from `../`)
+
+EXTERNAL SOURCES:
+  CocoaPodSample:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaPodSample: 2e688422e56a417bea42ab55117ddce3f0bde590
+
+COCOAPODS: 0.39.0
