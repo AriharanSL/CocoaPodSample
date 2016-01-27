@@ -54,6 +54,7 @@
 		95FFC39D08BDFEF2DE9F6B6A6CD36923 /* CocoaPodSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaPodSample-umbrella.h"; sourceTree = "<group>"; };
 		96404AC01C56637D0000A954 /* ClassUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassUtilities.h; sourceTree = "<group>"; };
 		96404AC11C56637D0000A954 /* ClassUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassUtilities.m; sourceTree = "<group>"; };
+		96CCE7931C58EF1300354263 /* ClassHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassHeader.h; sourceTree = "<group>"; };
 		970CF534E4454670478D42DE4801C935 /* Pods-CocoaPodSample_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaPodSample_Tests-dummy.m"; sourceTree = "<group>"; };
 		9B16A702CB705125B36C84635307B1A9 /* Pods-CocoaPodSample_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaPodSample_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD53AAC409C4286883E34222500196D0 /* CocoaPodSample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaPodSample.xcconfig; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 				1F56ECE422B0087888FFA86666865A58 /* ReplaceMe.m */,
 				96404AC01C56637D0000A954 /* ClassUtilities.h */,
 				96404AC11C56637D0000A954 /* ClassUtilities.m */,
+				96CCE7931C58EF1300354263 /* ClassHeader.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

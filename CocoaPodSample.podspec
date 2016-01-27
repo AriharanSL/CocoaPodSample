@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CocoaPodSample"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Sample Project"
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Pod/Classes/ClassHeader.h'
+  #s.source_files = 'Pod/Classes/**/*
+
   s.resource_bundles = {
     'CocoaPodSample' => ['Pod/Assets/*.png']
   }
