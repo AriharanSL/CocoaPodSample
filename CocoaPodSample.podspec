@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CocoaPodSample"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Sample Project"
 
 # This description is used to generate tags and improve search results.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ariharan" => "slariharan@gmail.com" }
-  s.source           = { :git => "https://github.com/AriharanSL/CocoaPodSample.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/AriharanSL/CocoaPodSample.git", :tag => s.version.to_s :submodules => true}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -32,7 +32,13 @@ Pod::Spec.new do |s|
     'CocoaPodSample' => ['Pod/Assets/*.png']
   }
 
+  s.subspec 'Utilities' do |ss|
+    ss.source_files = 'Pod/Classes/ClassUtilities.{h,m}'
+    ss.public_header_files = 'Pod/Classes/ClassUtilities.h'
+  end
+
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
 end
